@@ -16,12 +16,11 @@ body {
     background: var(--main-bg) url('../images/bg-mobile.svg') no-repeat;
     padding: 2rem;
     max-width: 100%;
-    max-height: 100vh;
 }
 
 header {
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 header img {
@@ -34,7 +33,7 @@ main {
 
 .image-wrapper {
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 #image {
@@ -53,6 +52,7 @@ main {
     text-transform: capitalize;
     text-align: center;
     color: var(--white-bg);
+    margin-bottom: 1rem;
 }
 
 .content p {
@@ -65,7 +65,7 @@ main {
 .register {
     width: 100%;
     text-align: center;
-    margin: 2rem 0 4rem;
+    margin: 3rem 0 4rem;
 }
 
 .register a {
@@ -83,9 +83,6 @@ main {
     color: lightgrey;
 }
 
-footer {
-    padding-bottom: 2rem;
-}
 
 .social-icons {
     text-align: center;
@@ -98,6 +95,7 @@ footer {
 }
 
 .social-icons a .img {
+    font-size: 0.7rem;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -115,15 +113,15 @@ footer {
         background-image: url('../images/bg-desktop.svg');
         background-position: center;
         background-size: cover;
-        padding: 3.7rem;
+        padding: 3rem;
     }
 
     .content h1 {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .content p {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 
     .register {
@@ -132,24 +130,30 @@ footer {
 
     .register a {
         font-size: 2rem;
+        border-radius: 40px;
         padding: 1rem 9rem;
+        box-shadow: 0 6px 0 rgba(0, 0, 0, 0.3);
     }
 
     footer {
-        margin: 8rem 0;
-        padding-bottom: 3rem;
+        margin: 8rem 0 0;
     }
 
     .social-icons a .img {
-        font-size: 2rem;
-        padding: 1.5rem;
+        font-size: 1rem;
+        padding: 1rem;
     }
 }
 
 @media screen and (min-width:992px) {
     body {
         background: var(--main-bg) url('../images/bg-desktop.svg') no-repeat;
-        padding: 3rem;
+        padding: 2rem 3rem;
+        max-height: 100vh;
+    }
+
+    header {
+        margin-bottom: 2.5rem;
     }
 
     header img {
